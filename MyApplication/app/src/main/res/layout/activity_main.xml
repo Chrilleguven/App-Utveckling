@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    tools:context=".MainActivity">
+
+
+    <ViewFlipper
+        android:layout_width="match_parent"
+        android:layout_height="330dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/flipperid"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:flipInterval="4000"
+        android:elevation="5dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/pic1"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center_horizontal"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/pic2"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center_horizontal"/>
+
+    </ViewFlipper>
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="674dp"
+        android:layout_marginBottom="9dp"
+        android:text="Open Activity 2" />
+
+ s
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="251dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="83dp"
+        android:layout_marginBottom="162dp"
+        android:text="Stockholm"
+        android:textColor="@color/purple_200"
+        android:textSize="20pt" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="253dp"
+        android:layout_height="83dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="85dp"
+        android:layout_marginBottom="71dp"
+        android:textColor="@color/teal_700"
+        android:text="Stockholm is the capital city of Sweden. It is estimated that 2.4 miljon people live in stockholm which makes it the biggest city in the country." />
+
+
+</RelativeLayout>
