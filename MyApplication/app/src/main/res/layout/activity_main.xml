@@ -35,6 +35,8 @@
     </ViewFlipper>
 
 
+    s
+
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
@@ -44,12 +46,11 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="123dp"
-        android:layout_marginTop="674dp"
-        android:layout_marginBottom="9dp"
+        android:layout_marginStart="121dp"
+        android:layout_marginTop="545dp"
+        android:layout_marginBottom="138dp"
         android:text="Open Activity 2" />
 
- s
     <TextView
         android:id="@+id/textView3"
         android:layout_width="251dp"
@@ -58,7 +59,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="83dp"
-        android:layout_marginBottom="162dp"
+        android:layout_marginBottom="319dp"
         android:text="Stockholm"
         android:textColor="@color/purple_200"
         android:textSize="20pt" />
@@ -69,10 +70,11 @@
         android:layout_height="83dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="85dp"
-        android:layout_marginBottom="71dp"
-        android:textColor="@color/teal_700"
-        android:text="Stockholm is the capital city of Sweden. It is estimated that 2.4 miljon people live in stockholm which makes it the biggest city in the country." />
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="82dp"
+        android:layout_marginBottom="235dp"
+        android:text="Stockholm is the capital city of Sweden. It is estimated that 2.4 miljon people live in stockholm which makes it the biggest city in the country."
+        android:textColor="@color/teal_700" />
 
 
 </RelativeLayout>
